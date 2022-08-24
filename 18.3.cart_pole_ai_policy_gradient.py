@@ -59,7 +59,6 @@ if __name__ == '__main__':
     model.load_weights(load_path)
 
     env = gym.make('CartPole-v0')
-    obs = env.reset()
 
     n_iterations = 150
     n_episodes_per_update = 10
